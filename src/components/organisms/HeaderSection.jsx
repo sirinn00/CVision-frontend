@@ -1,7 +1,7 @@
 import React from 'react';
 import { Layout } from 'antd';
 import Logo from '../atoms/Logo';
-import NavMenu from '../molecules/NavMenu';
+import Navbar from '../molecules/Navbar';
 
 const { Header } = Layout;
 
@@ -25,7 +25,7 @@ const HeaderSection = () => {
       }}
     >
       <Logo />
-      <NavMenu />
+      <Navbar />
     </Header>
   );
 };
