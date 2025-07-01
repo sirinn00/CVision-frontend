@@ -2,7 +2,7 @@ import React from 'react';
 import NavigationMenu from '../atoms/NavigationMenu';
 import PrimaryButton from '../atoms/PrimaryButton';
 
-const NavMenu = () => (
+const Navbar = () => (
   <div
     style={{
       display: 'flex',
@@ -15,4 +15,4 @@ const NavMenu = () => (
   </div>
 );
 
-export default NavMenu;
+export default Navbar;
