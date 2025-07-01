@@ -13,6 +13,7 @@ const HeaderSection = () => {
         justifyContent: 'space-between',
         alignItems: 'center',
         background: 'transparent',
+        position: 'sticky',
         height: '64px',
         width: '100%',
       }}
