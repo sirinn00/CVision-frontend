@@ -12,7 +12,7 @@ const HeaderSection = () => {
         display: 'flex',
         justifyContent: 'space-between',
         alignItems: 'center',
-        background: 'transparent',
+        background: 'rgba(255, 255, 255, 0.8)',
         position: 'sticky',
         height: '64px',
         width: '100%',
