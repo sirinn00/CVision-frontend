@@ -16,6 +16,7 @@ const HeaderSection = () => {
         background: 'rgba(255, 255, 255, 0.6)',
         backdropFilter: 'blur(10px)',
         position: 'sticky',
+        
         height: '64px',
         width: '100%',
         padding: '0 5vw',
