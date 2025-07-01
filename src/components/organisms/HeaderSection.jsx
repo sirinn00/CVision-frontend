@@ -10,12 +10,17 @@ const HeaderSection = () => {
     <Header
       style={{
         display: 'flex',
+        top: 0,
         justifyContent: 'space-between',
         alignItems: 'center',
-        background: 'rgba(255, 255, 255, 0.8)',
+        background: 'rgba(255, 255, 255, 0.6)',
+        backdropFilter: 'blur(10px)',
         position: 'sticky',
         height: '64px',
         width: '100%',
+        padding: '0 5vw',
+        zIndex: 1000,
+        boxShadow: '0 1px 8px rgba(0, 0, 0, 0.1)',
       }}
     >
       <Logo />
