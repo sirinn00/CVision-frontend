@@ -6,7 +6,7 @@ const NavMenu = () => (
   <div
     style={{
       display: 'flex',
-      gap: 16,
+      gap: '16px',
       alignItems: 'center',
     }}
   >
