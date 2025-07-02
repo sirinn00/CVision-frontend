@@ -4,7 +4,7 @@ import DescriptionText from '../atoms/DescriptionText';
 import UploadBox from '../molecules/UploadBox';
 
 const UploadSection = () => (
-  <section style={{ padding: '80px 5vw', textAlign: 'center' }}>
+  <section style={{ padding: '200px', textAlign: 'center' }}>
 
     <TitleText level={3} style={{ fontSize: '1.8rem', textAlign: 'center' }}>
     CV'nizi Yükleyin
