@@ -1,5 +1,4 @@
 import React from 'react';
-import { Row, Col } from 'antd';
 import TitleText from '../atoms/TitleText';
 import DescriptionText from '../atoms/DescriptionText';
 import HeroButtons from '../molecules/HeroButtons';
