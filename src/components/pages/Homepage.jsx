@@ -3,6 +3,7 @@ import { Layout } from 'antd';
 import HeaderSection from '../organisms/HeaderSection';
 import HeroSection from '../organisms/HeroSection';
 import HowItWorksSection from '../organisms/HowItWorksSection';
+import UploadSection from '../organisms/UploadSection';
 
 const HomePage = () => (
   <Layout
@@ -14,6 +15,7 @@ const HomePage = () => (
     <HeaderSection />
     <HeroSection />
     <HowItWorksSection />
+    <UploadSection />
   </Layout>
 );
 
