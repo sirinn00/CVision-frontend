@@ -3,10 +3,11 @@ import { Typography } from 'antd';
 
 const { Title } = Typography;
 
-const TitleText = ({ children }) => (
-  <Title level={1} style={{ fontSize: '3.2rem', textAlign: 'center', fontWeight: 800 }}>
+const TitleText = ({ children, level = 1, style = {} }) => (
+  <Title level={level} style={{ fontSize: '3.2rem', textAlign: 'center', fontWeight: 800, ...style }}>
     {children}
   </Title>
 );
+
 
 export default TitleText;
