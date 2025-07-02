@@ -16,12 +16,16 @@ const HeroSection = () => (
     }}
   >
     <TitleText>
-    CVision’a <span style={{ color: '#1677ff' }}>Hoş Geldiniz</span>
+      CVision’a <span style={{ color: '#1677ff' }}>Hoş Geldiniz</span>
     </TitleText>
+
     <DescriptionText>
-    Bu platformda, yüklediğiniz CV üzerinden akademik başarılarınızı, iş geçmişinizi ve teknik becerilerinizi değerlendirebilirsiniz.
+      Bu platformda, yüklediğiniz CV üzerinden akademik başarılarınızı, iş geçmişinizi ve teknik becerilerinizi değerlendirebilirsiniz.
     </DescriptionText>
-    <HeroButtons />
+
+    <div style={{ marginTop: '2rem' }}>
+      <HeroButtons />
+    </div>
   </section>
 );
 
