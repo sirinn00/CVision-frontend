@@ -11,7 +11,7 @@ const steps = [
 
 const HowItWorksSection = () => {
   return (
-    <section style={{ padding: '80px 5vw',textAlign: 'center' }}>
+    <section style={{ padding: '10px',textAlign: 'center' }}>
 
       <TitleText level={3} style={{ fontSize: '1.8rem', textAlign: 'center' }}>
       Sistem Nasıl Çalışır?
