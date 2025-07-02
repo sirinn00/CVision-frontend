@@ -13,7 +13,6 @@ const HeroSection = () => (
       alignItems: 'center',
       textAlign: 'center',
       padding: '0 24px',
-      background: 'linear-gradient(to bottom right, #e6f0ff, #ffffff)',
     }}
   >
     <TitleText>
