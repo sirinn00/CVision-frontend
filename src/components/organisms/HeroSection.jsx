@@ -16,8 +16,12 @@ const HeroSection = () => (
       background: 'linear-gradient(to bottom right, #e6f0ff, #ffffff)',
     }}
   >
-    <TitleText />
-    <DescriptionText />
+    <TitleText>
+    CVision’a <span style={{ color: '#1677ff' }}>Hoş Geldiniz</span>
+    </TitleText>
+    <DescriptionText>
+    Bu platformda, yüklediğiniz CV üzerinden akademik başarılarınızı, iş geçmişinizi ve teknik becerilerinizi değerlendirebilirsiniz.
+    </DescriptionText>
     <HeroButtons />
   </section>
 );
