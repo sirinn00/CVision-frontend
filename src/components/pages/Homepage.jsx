@@ -1,6 +1,6 @@
 import React from 'react';
 import { Layout } from 'antd';
-import HeaderSection from '../organisms/HeaderSection';
+import HeaderSection from '../organisms/HeaderSection/HeaderSection';
 import HeroSection from '../organisms/HeroSection';
 import HowItWorksSection from '../organisms/HowItWorksSection';
 import UploadSection from '../organisms/UploadSection';

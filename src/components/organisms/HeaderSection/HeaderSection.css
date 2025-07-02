@@ -1,0 +1,14 @@
+.custom-header {
+  display: flex;
+  top: 0;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(10px);
+  position: sticky;
+  height: 64px;
+  width: 100%;
+  padding: 0 5vw;
+  z-index: 1000;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
+}
