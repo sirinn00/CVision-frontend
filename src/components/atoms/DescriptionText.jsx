@@ -3,10 +3,9 @@ import { Typography } from 'antd';
 
 const { Paragraph } = Typography;
 
-const DescriptionText = () => (
-  <Paragraph style={{ fontSize: '1.2rem', textAlign: 'center', maxWidth: 800 }}>
-    Bu platformda,
-    yüklediğiniz CV üzerinden akademik başarılarınızı, iş geçmişinizi ve teknik becerilerinizi değerlendirebilirsiniz.
+const DescriptionText = ({ children }) => (
+  <Paragraph style={{ fontSize: '1.2rem', textAlign: 'center', maxWidth: 800, margin: '0 auto' }}>
+    {children}
   </Paragraph>
 );
 
