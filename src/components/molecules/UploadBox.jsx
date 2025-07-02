@@ -11,8 +11,8 @@ const UploadBox = () => (
       <div>veya</div>
 
       <PrimaryButton>Dosya Seç</PrimaryButton>
-      
-      <div style={{ fontSize: 12, color: 'gray' }}>Max. dosya boyutu: 5MB | Sadece PDF desteklenir</div>
+
+      <div style={{ fontSize: 12, color: 'gray' }}>Max. dosya boyutu: 5MB | Sadece .DOCX desteklenir</div>
     </Space>
   </div>
 );
