@@ -2,7 +2,7 @@ import React from 'react';
 import { Layout } from 'antd';
 import HeaderSection from '../organisms/HeaderSection/HeaderSection';
 import HeroSection from '../organisms/HeroSection/HeroSection';
-import HowItWorksSection from '../organisms/HowItWorksSection';
+import HowItWorksSection from '../organisms/HowItWorksSection/HowItWorksSection';
 import UploadSection from '../organisms/UploadSection';
 
 const HomePage = () => (
