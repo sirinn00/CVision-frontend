@@ -1,7 +1,7 @@
 import React from 'react';
-import TitleText from '../atoms/TitleText';
-import DescriptionText from '../atoms/DescriptionText';
-import UploadBox from '../molecules/UploadBox';
+import TitleText from '../../atoms/TitleText';
+import DescriptionText from '../../atoms/DescriptionText';
+import UploadBox from '../../molecules/UploadBox';
 
 const UploadSection = () => (
   <section style={{ padding: '200px', textAlign: 'center' }}>

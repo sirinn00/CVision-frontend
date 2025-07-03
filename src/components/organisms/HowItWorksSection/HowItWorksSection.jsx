@@ -1,6 +1,6 @@
-import DescriptionText from '../atoms/DescriptionText';
-import TitleText from '../atoms/TitleText';
-import StepCard from '../molecules/StepCard';
+import DescriptionText from '../../atoms/DescriptionText';
+import TitleText from '../../atoms/TitleText';
+import StepCard from '../../molecules/StepCard';
 import { Row, Col } from 'antd';
 
 const steps = [
