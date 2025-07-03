@@ -1,7 +1,7 @@
 import React from 'react';
 import { Layout } from 'antd';
 import HeaderSection from '../organisms/HeaderSection/HeaderSection';
-import HeroSection from '../organisms/HeroSection';
+import HeroSection from '../organisms/HeroSection/HeroSection';
 import HowItWorksSection from '../organisms/HowItWorksSection';
 import UploadSection from '../organisms/UploadSection';
 
