@@ -3,7 +3,7 @@ import { Layout } from 'antd';
 import HeaderSection from '../organisms/HeaderSection/HeaderSection';
 import HeroSection from '../organisms/HeroSection/HeroSection';
 import HowItWorksSection from '../organisms/HowItWorksSection/HowItWorksSection';
-import UploadSection from '../organisms/UploadSection';
+import UploadSection from '../organisms/UploadSection/UploadSection';
 
 const HomePage = () => (
   <Layout
