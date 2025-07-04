@@ -2,6 +2,7 @@ import DescriptionText from '../../atoms/DescriptionText';
 import TitleText from '../../atoms/TitleText';
 import StepCard from '../../molecules/StepCard';
 import { Row, Col } from 'antd';
+import './HowItWorksSection.css';
 
 const steps = [
   { number: '1', title: 'CV Şablonu İndir', description: 'Sitemizde hazırlanmış olan CV şablonunu indirin.' },
@@ -11,7 +12,7 @@ const steps = [
 
 const HowItWorksSection = () => {
   return (
-    <section style={{ padding: '10px',textAlign: 'center' }}>
+    <section id="how-it-works" style={{ padding: '10px',textAlign: 'center' }}>
 
       <TitleText level={3} style={{ fontSize: '1.8rem', textAlign: 'center' }}>
       Sistem Nasıl Çalışır?
