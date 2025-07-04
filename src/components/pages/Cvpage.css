@@ -1,0 +1,10 @@
+.cv-page-layout {
+  background: #f5f7fa;
+  min-height: 100vh;
+}
+
+@media (max-width: 768px) {
+  .cv-page-layout {
+    padding: 20px;
+  }
+}
