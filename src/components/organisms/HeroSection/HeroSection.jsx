@@ -5,7 +5,7 @@ import DescriptionText from '../../atoms/DescriptionText';
 import HeroButtons from '../../molecules/HeroButtons';
 
 const HeroSection = () => (
-  <section className="heroSection">
+  <section id="hero-section" className="heroSection">
     <TitleText>
       CVision’a <span style={{ color: '#1677ff' }}>Hoş Geldiniz</span>
     </TitleText>
