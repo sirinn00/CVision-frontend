@@ -1,17 +1,39 @@
 import React from 'react';
+import './CvPreview.css';
 
-const CvPreview = () => {
+const CvPreview = ({ formData }) => {
+  const {
+    photo,
+    givenName,
+    familyName,
+    headline,
+    email,
+    phone,
+    city,
+    linkedin,
+    github,
+    skills,
+    languages
+  } = formData;
+
   return (
-    <div style={{
-      border: '1px solid #d9d9d9',
-      borderRadius: '8px',
-      padding: '24px',
-      background: '#fff',
-      height: '100%',
-    }}>
-      <h2>CV Önizleme</h2>
-      <p>Ad Soyad: ...</p>
-      <p>Doğum Tarihi: ...</p>
+    <div className="cv-preview">
+      {photo && <img src={photo} alt="Profile" className="cv-photo" />}
+      <h1>{givenName} {familyName}</h1>
+      <h2>{headline}</h2>
+      <p>{email} | {phone}</p>
+      <p>{city}</p>
+      <hr />
+      <p><strong>LinkedIn:</strong> {linkedin}</p>
+      <p><strong>GitHub:</strong> {github}</p>
+      <h3>Skills</h3>
+      <ul>
+        {skills.map((skill, idx) => <li key={idx}>{skill}</li>)}
+      </ul>
+      <h3>Languages</h3>
+      <ul>
+        {languages.map((lang, idx) => <li key={idx}>{lang}</li>)}
+      </ul>
     </div>
   );
 };
