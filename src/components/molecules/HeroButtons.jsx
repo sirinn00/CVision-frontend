@@ -4,7 +4,7 @@ import { Button } from 'antd';
 const HeroButtons = () => (
   <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center' }}>
     <Button type="primary" size="large">
-      CV ŞABLONU İNDİR
+      CV OLUŞTUR
     </Button>
     <Button size="large">
       Daha Fazla Bilgi
