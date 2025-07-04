@@ -11,8 +11,12 @@ const NavigationMenu = () => (
     }}
     selectable={false}
   >
-    <Menu.Item key="1">Ana Sayfa</Menu.Item>
-    <Menu.Item key="2">Nasıl Çalışır?</Menu.Item>
+    <Menu.Item key="1">
+      <a href="#hero-section" style={{ color: 'inherit' }}>Ana Sayfa</a>
+    </Menu.Item>
+    <Menu.Item key="2">
+      <a href="#how-it-works" style={{ color: 'inherit' }}>Nasıl Çalışır?</a>
+    </Menu.Item>
   </Menu>
 );
 

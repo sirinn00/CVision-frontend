@@ -6,6 +6,7 @@
   align-items: center;
   text-align: center;
   padding: 0 24px;
+  scroll-margin-top: 50px;
 }
 
 .buttonWrapper {
