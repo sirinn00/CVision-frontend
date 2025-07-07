@@ -19,6 +19,7 @@ const CvPage = () => {
     city: '',
     linkedin: '',
     github: '',
+    bio: '',
     education: '',
     gpa: '',
     skills: '',
@@ -53,6 +54,17 @@ const CvPage = () => {
                 new TextRun({ text: ` | Phone: ${formData.phone}` }),
                 new TextRun({ text: ` | City: ${formData.city}` }),
               ],
+            }),
+            new Paragraph(''),
+            new Paragraph({
+              children: [
+                new TextRun({ text: 'Biyografi', bold: true })
+              ]
+            }),
+            new Paragraph({
+              children: [
+                new TextRun({ text: formData.bio })
+              ]
             }),
             new Paragraph(''),
             new Paragraph({
@@ -130,6 +142,9 @@ const CvPage = () => {
               <Form.Item label="GitHub">
                 <Input name="github" value={formData.github} onChange={handleChange} />
               </Form.Item>
+              <Form.Item label="Biyografi">
+                <Input.TextArea name="bio" placeholder="Kısa biyografi" value={formData.bio} onChange={handleChange} rows={3} />
+              </Form.Item>
               <Form.Item label="Eğitim">
                 <Input name="education" value={formData.education} onChange={handleChange} />
               </Form.Item>
@@ -155,6 +170,10 @@ const CvPage = () => {
               <p className="info-line"><EnvironmentOutlined /> {formData.city}</p>
               <p className="info-line"><LinkedinOutlined /> {formData.linkedin}</p>
               <p className="info-line"><GithubOutlined /> {formData.github}</p>
+            </div>
+            <div style={{ marginTop: 24 }}>
+              <Title level={5}>Biyografi</Title>
+              <Text strong>{formData.bio}</Text>
             </div>
             <div style={{ marginTop: 24 }}>
               <Title level={5}>Eğitim</Title>
