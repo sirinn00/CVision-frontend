@@ -1,5 +1,4 @@
 import React from 'react';
-import './CvPreview.css';
 
 const CvPreview = ({ formData }) => {
   const {
