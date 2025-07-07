@@ -22,6 +22,7 @@ const CvPage = () => {
     education: '',
     gpa: '',
     skills: '',
+    languages: '',
   });
 
   const handleChange = (e) => {
@@ -138,6 +139,9 @@ const CvPage = () => {
               <Form.Item label="Yetenekler (virgülle ayırın)">
                 <Input name="skills" value={formData.skills} onChange={handleChange} />
               </Form.Item>
+              <Form.Item label="Diller">
+                <Input name="languages" placeholder="Diller" value={formData.languages} onChange={handleChange} />
+              </Form.Item>
             </Form>
           </Col>
 
@@ -165,6 +169,12 @@ const CvPage = () => {
                 ))}
               </ul>
             </div>
+            <Title level={4} className="cv-section-title">Languages</Title>
+            <ul className="cv-languages-list">
+              {formData.languages.split(',').map((lang, idx) => (
+                <li key={idx}>{lang.trim()}</li>
+              ))}
+            </ul>
             <button className="cv-word-download-btn" onClick={downloadWord}>Word olarak indir</button>
           </Col>
         </Row>
