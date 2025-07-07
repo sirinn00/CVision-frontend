@@ -11,7 +11,7 @@ const Navbar = () => (
     }}
   >
     <NavigationMenu />
-    <PrimaryButton>CV Tara</PrimaryButton>
+    <PrimaryButton>CV Oluştur</PrimaryButton>
   </div>
 );
 

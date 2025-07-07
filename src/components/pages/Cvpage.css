@@ -1,0 +1,44 @@
+.cv-page-container {
+  background-color: transparent;
+  padding: 24px;
+}
+
+.cv-form-area {
+  background-color: #fff;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.cv-preview-area {
+  background-color: #fff;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.cv-photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 8px;
+  object-fit: cover;
+  margin-bottom: 16px;
+}
+
+
+.cv-form-box,
+.cv-preview-box {
+  background-color: #ffffff;
+  padding: 32px;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  min-height: 100%;
+}
+
+@media (max-width: 768px) {
+  .cv-form-box,
+  .cv-preview-box {
+    margin-bottom: 24px;
+  }
+}
+
